@@ -1,0 +1,85 @@
+h3{
+    color: rgb(0, 145, 255);
+}
+
+#title{
+    color: gray;
+    border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 310px;
+    margin-bottom: 20px;
+}
+
+#firstName{
+    color: gray;
+    border: 2px solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#lastName{
+    color: gray;
+    border: 2px solid;
+    margin-bottom: 20px;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#position{
+    color: gray;
+    border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 287px;
+    margin-bottom: 20px;
+}
+
+#company{
+    color: gray;
+    border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 192px;
+    margin-bottom: 20px;
+}
+
+#BusinessArena{
+    margin-right: 20px;
+    color: gray;
+    border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 20px;
+    margin-left: 50;border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 30px;
+}
+
+#employee{
+    color: gray;
+    border: 2px solid;
+    border-color: darkgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 20px;
+    padding-right: 57px;
+}
