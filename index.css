@@ -26,7 +26,7 @@ h3{
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-right: 310px;
+    padding-right: 333px;
     margin-bottom: 20px;
 }
 
@@ -66,7 +66,7 @@ h3{
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-right: 287px;
+    padding-right: 310px;
     margin-bottom: 20px;
 }
 
@@ -78,7 +78,7 @@ h3{
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-right: 192px;
+    padding-right: 217px;
     margin-bottom: 20px;
 }
 
@@ -109,7 +109,7 @@ h3{
     border-right: none;
     border-top: none;
     margin-bottom: 20px;
-    padding-right: 57px;
+    padding-right: 70px;
 }
 
 #contant{
@@ -221,7 +221,7 @@ button {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 
 h2{
@@ -249,19 +249,24 @@ h2{
 
 
 #street{
+    width: 88%;
+    color: white;
     background: none;
     padding: 10px;
     /* border: 2px solid; */
     /* margin-left: 30px; */
-    padding-right: 280px;
+    /* padding-right: 280px; */
     margin-bottom: 20px;
     border-color: none;
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: groove;
 }
 
 #add{
+    width: 33%;
+    color: white;
     background: none;
     padding: 10px;
     padding-right: 280px;
@@ -270,9 +275,11 @@ h2{
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: groove;
 }
 
 #zip{
+    color: white;
     margin-right: 20px;
     background: none;
     padding: 10px;
@@ -281,9 +288,11 @@ h2{
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: groove;
 }
 
 #palce{
+    color: white;
     color: white;
     background: none;
     padding: 10px;
@@ -292,9 +301,11 @@ h2{
     border-top: none;
     padding-right: 180px;
     margin-bottom: 20px;
+    border-bottom: groove;
 }
 
 #country{
+    color: white;
     color: white;
     background: none;
     padding: 10px;
@@ -303,9 +314,11 @@ h2{
     border-top: none;
     padding-right: 370px;
     margin-bottom: 20px;
+    border-bottom: groove;
 }
 
 #code{
+    color: white;
     margin-right: 20px;
     background: none;
     padding: 10px;
@@ -314,9 +327,11 @@ h2{
     border-left: none;
     border-right: none;
     border-top: none;
+    border-bottom: groove;
 }
 
 #phone{
+    color: white;
     background: none;
     padding: 10px;
     margin-bottom: 20px;
@@ -325,24 +340,28 @@ h2{
     border-right: none;
     border-top: none;
     padding-right: 70px;
+    border-bottom: groove;
 }
 
 #email{
+    width: 88%;
     color: white;
     background: none;
     padding: 10px;
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-right: 275px;
+    /* padding-right: 275px; */
     margin-bottom: 20px;
+    border-bottom: groove;
 }
 
-#terms{
+#term{
     margin-bottom: 30px;
 }
 .terms{
     color: white;
+    margin-left: 10px;
 }
 
 a:-webkit-any-link{
@@ -355,11 +374,16 @@ button{
 }
 
 main{
-    width: 540px;
+    width: 475px;
     height: 520px;
 }
 
 button #reg{
     color: black;
     text-decoration: none;
+}
+
+.form2{
+    width: 550px;
+    height: 520px;
 }
