@@ -19,7 +19,7 @@ h3{
 }
 
 #title{
-    padding: 5px;
+    padding: 10px;
     color: gray;
     border: 2px solid;
     border-color: darkgray;
@@ -31,7 +31,7 @@ h3{
 }
 
 #firstName{   
-    padding: 5px;
+    padding: 10px;
     /* color: gray; */
     color: black;
     border: 2px solid;
@@ -48,7 +48,7 @@ h3{
 } */
 
 #lastName{
-    padding: 5px;
+    padding: 10px;
     color: gray;
     border: 2px solid;
     margin-bottom: 20px;
@@ -59,7 +59,7 @@ h3{
 }
 
 #position{
-    padding: 5px;
+    padding: 10px;
     color: gray;
     border: 2px solid;
     border-color: darkgray;
@@ -71,7 +71,7 @@ h3{
 }
 
 #company{
-    padding: 5px;
+    padding: 10px;
     color: gray;
     border: 2px solid;
     border-color: darkgray;
@@ -83,7 +83,7 @@ h3{
 }
 
 #BusinessArena{
-    padding: 5px;
+    padding: 10px;
     margin-right: 20px;
     color: gray;
     border: 2px solid;
@@ -101,7 +101,7 @@ h3{
 }
 
 #employee{
-    padding: 5px;
+    padding: 10px;
     color: gray;
     border: 2px solid;
     border-color: darkgray;
@@ -179,15 +179,13 @@ h3{
 
 
 /* --------------------------------------------- */
-/* .container {
-    background-color: #fff;
+/*.container {
+    background-color: blue;
     padding: 20px;
-    margin: 50px auto;
-    max-width: 400px;
+    width: 400px;
 }
 h2 {
-    text-align: center;
-    color: #2196F3;
+    color: white;
 }
 input[type="text"],
 input[type="email"],
@@ -212,7 +210,156 @@ button {
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    /* cursor: pointer; 
     width: 100%;
     margin-top: 20px;
 } */
+
+.container{
+    /* margin-bottom: 40px; */
+    background-color: blue;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+h2{
+    color: white;
+}
+
+#street::placeholder{
+    color: white;
+}
+#add::placeholder{
+    color: white;
+}
+#zip::placeholder{
+    color: white;
+}
+#code::placeholder{
+    color: white;
+}
+#phone::placeholder{
+    color: white;
+}
+#email::placeholder{
+    color: white;
+}
+
+
+#street{
+    background: none;
+    padding: 10px;
+    /* border: 2px solid; */
+    /* margin-left: 30px; */
+    padding-right: 280px;
+    margin-bottom: 20px;
+    border-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#add{
+    background: none;
+    padding: 10px;
+    padding-right: 280px;
+    margin-bottom: 20px;
+    border-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#zip{
+    margin-right: 20px;
+    background: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#palce{
+    color: white;
+    background: none;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 180px;
+    margin-bottom: 20px;
+}
+
+#country{
+    color: white;
+    background: none;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 370px;
+    margin-bottom: 20px;
+}
+
+#code{
+    margin-right: 20px;
+    background: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#phone{
+    background: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-color: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 70px;
+}
+
+#email{
+    color: white;
+    background: none;
+    padding: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-right: 275px;
+    margin-bottom: 20px;
+}
+
+#terms{
+    margin-bottom: 30px;
+}
+.terms{
+    color: white;
+}
+
+a:-webkit-any-link{
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+main{
+    width: 540px;
+    height: 520px;
+}
+
+button #reg{
+    color: black;
+    text-decoration: none;
+}
